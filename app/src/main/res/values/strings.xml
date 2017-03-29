@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Geronimo11</string>
+    <string name="logo">Geronimo</string>
+    <string name="call">Call Up</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="address_prompt">Choose an Address</string>
+    <string-array name="address">
+        <item>Malaysian Township,Kukatpally</item>
+        <item>Kondapur</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+    <string name="action_settings">Call</string>
+</resources>

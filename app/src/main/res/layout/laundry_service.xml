@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="315dp"
+    android:layout_height="96dp"
+    android:layout_weight="1"
+    tools:context="com.codenerds.zerocool.geronimo11.Fragment_WashAndFold">
+
+    <Button
+        android:text="SELECT ITEMS"
+        android:layout_height="wrap_content"
+        android:id="@+id/but_ls_regular"
+        android:padding="10dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintHorizontal_bias="0.09"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_width="130dp"
+        android:textSize="12sp" />
+
+    <Button
+        android:text="NO SELECT FOR WASH FOLD"
+        android:layout_height="wrap_content"
+        android:id="@+id/but_ls_subscription"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        android:textSize="12sp"
+        android:layout_width="130dp" />
+
+</android.support.constraint.ConstraintLayout>

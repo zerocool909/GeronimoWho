@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="315dp"
+    android:layout_height="90dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.codenerds.zerocool.geronimo11.Fragment_Ironing"
+    android:weightSum="1">
+
+    <Button
+        android:text="Select Clothes for Ironing"
+        android:id="@+id/but_dcs_selectDryClean"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:layout_width="137dp"
+
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <Button
+        android:text="No Secection Required"
+        android:layout_height="48dp"
+        android:id="@+id/but_dcs_noSelection"
+        android:textSize="10sp"
+        android:layout_width="144dp"
+        android:textColor="@color/white"
+
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintHorizontal_bias="0.98" />
+
+</android.support.constraint.ConstraintLayout>

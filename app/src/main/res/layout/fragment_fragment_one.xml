@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="96dp"
+    tools:context="com.codenerds.zerocool.geronimo11.Fragment_DryCleaning"
+
+    android:layout_width="315dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="96dp">
+
+        <Button
+            android:text="Select Clothes"
+            android:id="@+id/button_selectdrycleaning"
+            android:paddingLeft="5dp"
+            android:textSize="12sp"
+            android:layout_width="250dp"
+            android:layout_marginLeft="30dp"
+            android:layout_height="36dp" />
+
+        <Button
+            android:text="Continue Without Selection"
+            android:id="@+id/button_noselectdrycleaning"
+            android:layout_height="36dp"
+            android:textSize="12sp"
+            android:layout_width="250dp"
+            android:layout_marginLeft="30dp" />
+    </LinearLayout>
+
+
+</FrameLayout>

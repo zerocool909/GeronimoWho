@@ -1,0 +1,102 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="315dp"
+    android:layout_height="96dp" tools:context="com.codenerds.zerocool.geronimo11.Fragment_Laundry"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:layout_width="315dp"
+        android:layout_height="96dp">
+
+        <CheckBox
+            android:text="Subscription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dp"
+            android:layout_marginStart="38dp"
+            android:id="@+id/checkBox_subscription"
+            android:layout_alignBaseline="@+id/checkBox_regular"
+            android:layout_alignBottom="@+id/checkBox_regular"
+            android:layout_toRightOf="@+id/checkBox_regular"
+            android:textColor="@android:color/white"
+            android:textStyle="normal|bold"
+            android:textSize="12sp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <CheckBox
+            android:text="Per Item Based"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox_eachItem"
+            android:layout_below="@+id/checkBox_regular"
+            android:layout_alignLeft="@+id/checkBox_regular"
+            android:layout_alignStart="@+id/checkBox_regular"
+
+            android:textColor="@android:color/white"
+            android:textStyle="normal|bold"
+            android:textSize="12sp"
+            android:layout_toLeftOf="@+id/checkBox_kgwise"
+            android:layout_toStartOf="@+id/checkBox_kgwise" />
+
+        <CheckBox
+            android:text="/ Kg Based "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox_subscription"
+            android:layout_alignLeft="@+id/checkBox_subscription"
+            android:layout_alignStart="@+id/checkBox_subscription"
+            android:id="@+id/checkBox_kgwise"
+            android:textColor="@android:color/white"
+            android:textStyle="normal|bold"
+            android:textSize="12sp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <CheckBox
+            android:text="Proceed without Selection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox_noselection"
+            android:layout_below="@+id/checkBox_kgwise"
+            android:layout_alignLeft="@+id/checkBox_kgwise"
+            android:layout_alignStart="@+id/checkBox_kgwise"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <CheckBox
+            android:text="Select Clothes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox_selectclothes"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/checkBox_eachItem"
+            android:layout_alignLeft="@+id/checkBox_eachItem"
+            android:layout_alignStart="@+id/checkBox_eachItem"
+            android:textSize="12sp"
+            android:layout_toLeftOf="@+id/checkBox_kgwise"
+            android:layout_toStartOf="@+id/checkBox_kgwise" />
+
+        <CheckBox
+            android:text="Regular Laundry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/checkBox_regular"
+            android:fontFamily="sans-serif"
+            android:typeface="serif"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:textStyle="normal|bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</FrameLayout>
